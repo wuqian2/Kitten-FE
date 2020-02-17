@@ -1,0 +1,69 @@
+<div style="height: 100%">
+  <div nz-row [nzGutter]="10" style="height: 13%;">
+    <div nz-col [nzSpan]="6">
+      <nz-card [nzBordered]="false">
+        <nz-card-meta
+          nzTitle="Card title"
+          nzDescription="This is the description"
+          [nzAvatar]="a"
+        ></nz-card-meta>
+      </nz-card>
+    </div>
+    <div nz-col [nzSpan]="6">
+      <nz-card [nzBordered]="false">
+        <nz-card-meta
+          nzTitle="Card title"
+          nzDescription="This is the description"
+          [nzAvatar]="b"
+        ></nz-card-meta>
+      </nz-card>
+    </div>
+    <div nz-col [nzSpan]="6">
+      <nz-card [nzBordered]="false">
+        <nz-card-meta
+          nzTitle="Card title"
+          nzDescription="This is the description"
+          [nzAvatar]="c"
+        ></nz-card-meta>
+      </nz-card>
+    </div>
+    <div nz-col [nzSpan]="6">
+      <nz-card [nzBordered]="false">
+        <nz-card-meta
+          nzTitle="Card title"
+          nzDescription="This is the description"
+          [nzAvatar]="d"
+        ></nz-card-meta>
+      </nz-card>
+    </div>
+  </div>
+  <div nz-row style="height: 65%;  background-color: #ffffff;">
+    <div id="option1" style="height: 100%"></div>
+  </div>
+
+  <div nz-row  style="height: 55%;width: 100%">
+    <div class="chartCol" >
+      <div id="option2" style="height: 100%"></div>
+    </div>
+    <div class="chartCol" style="margin-left: 2%">
+      <div id="option3" style="height: 100%"></div>
+    </div>
+    <div class="chartCol" style="margin-left: 2%">
+      <div id="option4" style="height: 100%"></div>
+    </div>
+  </div>
+</div>
+
+
+<ng-template #a>
+  <i nz-icon nzType="fund" nzTheme="fill" style="font-size: 55px;color: #1890ff"></i>
+</ng-template>
+<ng-template #b>
+  <i nz-icon nzType="notification" nzTheme="fill" style="font-size: 55px;color: aquamarine"></i>
+</ng-template>
+<ng-template #c>
+  <i nz-icon nzType="pay-circle" nzTheme="fill" style="font-size: 55px;color: #ff9077"></i>
+</ng-template>
+<ng-template #d>
+  <i nz-icon nzType="read" nzTheme="fill" style="font-size: 55px;color: #8c9dff"></i>
+</ng-template>
