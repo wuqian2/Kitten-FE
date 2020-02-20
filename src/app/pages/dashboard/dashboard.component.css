@@ -1,0 +1,27 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+.chartCol{
+  width: 32%;
+  background-color: #ffffff;
+  height: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  float: left;
+}
+
+.cardCol{
+  width: 100%;
+  background-color: #ffffff;
+  height: 100%;
+  margin-bottom: 2%;
+  padding: 20px;
+  line-height: 3px;
+}
+
+div[nz-col] {
+  height: 100%;
+}
+

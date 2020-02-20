@@ -2,13 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import * as echarts from "echarts";
 import {option1, option2, option3, option4} from "../../mock/ChartData";
 
-
 @Component({
-  selector: 'app-welcome',
-  templateUrl: './welcome.component.html',
-  styleUrls: ['./welcome.component.css']
+  selector: 'app-dashboard',
+  templateUrl: './dashboard.component.html',
+  styleUrls: ['./dashboard.component.css']
 })
-export class WelcomeComponent implements OnInit {
+export class DashboardComponent implements OnInit {
 
   constructor() { }
 
@@ -32,5 +31,4 @@ export class WelcomeComponent implements OnInit {
     },0)
 
   }
-
 }
